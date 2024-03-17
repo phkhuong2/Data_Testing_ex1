@@ -1,8 +1,8 @@
 resource "aws_s3_bucket" "example" {
   bucket = "qa-community-${var.your_account}-s3"
   tags = {
-    Name        = "My bucket"
-    Environment = "Dev"
+    Name        = "Khuong bucket"
+    Environment = "dev"
   }
 }
 
